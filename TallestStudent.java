@@ -12,7 +12,11 @@ public class TallestStudent
         Arrays.sort(height);
         System.out.println("Enter value of K");
         int k=sc.nextInt();
-        int pos=(height.length-1)-k;
+        if(k>0&&k<=height.length)
+        {
+        int pos=(height.length)-k;
         System.out.println(k+"th tallest Student height is "+height[pos]);
+        }else
+        System.out.println("K value is not in the range");
     }
 }
