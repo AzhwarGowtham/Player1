@@ -30,11 +30,13 @@ public class IndexNumber
         	}
         	else if(arr[i]==arr[i+1])
         	{
+        	    flag=1;
         		System.out.println("Elements are not unique");
         		break;
         	}
         	else
         	{
+        	    flag=1;
         		System.out.println("Elements are not in sorted order..");
         		break;
         	}
