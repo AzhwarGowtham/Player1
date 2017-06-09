@@ -33,7 +33,7 @@ public class ArrayAvg
                     sum2=sum2+Integer.parseInt(strArr[j]);
                     count2++;
                 }
-            }
+            } 
             if(count1!=0&&count2!=0)
             if((sum1/count1)==(sum2/count2))
             {
